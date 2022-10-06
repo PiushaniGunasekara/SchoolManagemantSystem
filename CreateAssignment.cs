@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentAttendence
 {
-    public partial class Assignment : Form
+    public partial class CreateAssignment : Form
     {
-        public Assignment()
+        public CreateAssignment()
         {
             InitializeComponent();
         }
@@ -25,6 +25,17 @@ namespace StudentAttendence
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
         }
     }
 }

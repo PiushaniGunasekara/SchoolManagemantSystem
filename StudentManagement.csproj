@@ -61,23 +61,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assignment.cs">
+    <Compile Include="CreateAssignment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assignment.Designer.cs">
-      <DependentUpon>Assignment.cs</DependentUpon>
+    <Compile Include="CreateAssignment.Designer.cs">
+      <DependentUpon>CreateAssignment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lesson.cs">
+    <Compile Include="CreateLesson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lesson.Designer.cs">
-      <DependentUpon>Lesson.cs</DependentUpon>
+    <Compile Include="CreateLesson.Designer.cs">
+      <DependentUpon>CreateLesson.cs</DependentUpon>
     </Compile>
     <Compile Include="Module.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module.Designer.cs">
       <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Submissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Submissions.Designer.cs">
+      <DependentUpon>Submissions.cs</DependentUpon>
     </Compile>
     <Compile Include="TeacherInterface.cs">
       <SubType>Form</SubType>
@@ -91,22 +97,13 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminInterface.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminInterface.Designer.cs">
-      <DependentUpon>AdminInterface.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AdminInterface.resx">
-      <DependentUpon>AdminInterface.cs</DependentUpon>
+    <EmbeddedResource Include="CreateAssignment.resx">
+      <DependentUpon>CreateAssignment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Assignment.resx">
-      <DependentUpon>Assignment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Lesson.resx">
-      <DependentUpon>Lesson.cs</DependentUpon>
+    <EmbeddedResource Include="CreateLesson.resx">
+      <DependentUpon>CreateLesson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -123,6 +120,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Submissions.resx">
+      <DependentUpon>Submissions.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TeacherInterface.resx">
       <DependentUpon>TeacherInterface.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,5 +16,16 @@ namespace StudentAttendence
         {
             InitializeComponent();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
+        }
     }
 }

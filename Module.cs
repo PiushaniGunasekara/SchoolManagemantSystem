@@ -41,5 +41,29 @@ namespace StudentAttendence
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CreateLesson cl = new CreateLesson();
+            cl.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CreateAssignment ca = new CreateAssignment();
+            ca.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Submissions s = new Submissions();
+            s.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
+        }
     }
 }

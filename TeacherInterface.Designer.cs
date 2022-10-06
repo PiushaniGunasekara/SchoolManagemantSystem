@@ -28,125 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dataGridViewModules = new System.Windows.Forms.DataGridView();
+            this.Module_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Module_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewModules)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(35, 90);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(154, 37);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "Subject";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Gray;
             this.label4.Location = new System.Drawing.Point(-2, -4);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(383, 769);
+            this.label4.Size = new System.Drawing.Size(383, 787);
             this.label4.TabIndex = 15;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(23, 90);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(154, 37);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "Class ";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(1110, 558);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 19;
-            // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(416, 119);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.label5);
-            this.splitContainer1.Panel1.Controls.Add(this.button2);
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
-            this.splitContainer1.Panel1.Controls.Add(this.button4);
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.button5);
-            this.splitContainer1.Panel2.Controls.Add(this.label3);
-            this.splitContainer1.Panel2.Controls.Add(this.button3);
-            this.splitContainer1.Panel2.Controls.Add(this.button6);
-            this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(691, 607);
-            this.splitContainer1.SplitterDistance = 338;
-            this.splitContainer1.TabIndex = 20;
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(35, 159);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 37);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Subject";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(35, 236);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 37);
-            this.button2.TabIndex = 20;
-            this.button2.Text = "Subject";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(23, 236);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(154, 37);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Class ";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(23, 159);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(154, 37);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "Class ";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(258, -4);
+            this.label1.Location = new System.Drawing.Point(313, -4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1114, 95);
+            this.label1.Size = new System.Drawing.Size(852, 95);
             this.label1.TabIndex = 21;
             // 
             // label2
@@ -161,28 +71,6 @@
             this.label2.TabIndex = 22;
             this.label2.Text = "Mr. Firstname Lastname";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(17, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 33);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "Module List ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(29, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 33);
-            this.label5.TabIndex = 22;
-            this.label5.Text = "Class List ";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -190,52 +78,123 @@
             this.label7.Font = new System.Drawing.Font("Cambria", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(39, 195);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(318, 208);
+            this.label7.Size = new System.Drawing.Size(307, 204);
             this.label7.TabIndex = 25;
             this.label7.Text = "STUDENT \r\nLEARNING \r\nMANAGEMENT \r\nSYSTEM";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Cambria", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(408, 129);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(162, 33);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Module List ";
+            // 
+            // dataGridViewModules
+            // 
+            this.dataGridViewModules.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewModules.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Module_Code,
+            this.Module_Name,
+            this.Column1});
+            this.dataGridViewModules.Location = new System.Drawing.Point(413, 195);
+            this.dataGridViewModules.Name = "dataGridViewModules";
+            this.dataGridViewModules.RowTemplate.Height = 24;
+            this.dataGridViewModules.Size = new System.Drawing.Size(380, 73);
+            this.dataGridViewModules.TabIndex = 26;
+            this.dataGridViewModules.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // Module_Code
+            // 
+            this.Module_Code.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Module_Code.HeaderText = "Module Code";
+            this.Module_Code.Name = "Module_Code";
+            this.Module_Code.Width = 120;
+            // 
+            // Module_Name
+            // 
+            this.Module_Name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
+            this.Module_Name.HeaderText = "Mdule Name";
+            this.Module_Name.Name = "Module_Name";
+            this.Module_Name.Width = 116;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "View";
+            this.Column1.Name = "Column1";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(702, 222);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 27;
+            this.button1.Text = "View";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(1000, 27);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(72, 29);
+            this.button5.TabIndex = 33;
+            this.button5.Text = "Back";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(1078, 27);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(72, 29);
+            this.button6.TabIndex = 32;
+            this.button6.Text = "Log Out";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // TeacherInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1373, 765);
+            this.ClientSize = new System.Drawing.Size(1162, 783);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridViewModules);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.splitContainer1);
-            this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.label4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "TeacherInterface";
             this.Text = "TeacherInterface";
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel1.PerformLayout();
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            this.splitContainer1.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.TeacherInterface_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewModules)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridView dataGridViewModules;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Module_Code;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Module_Name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
     }
 }

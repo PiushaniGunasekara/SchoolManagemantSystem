@@ -19,6 +19,8 @@ namespace StudentAttendence
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
+            textBox2.Clear();
 
         }
 
@@ -34,10 +36,27 @@ namespace StudentAttendence
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string username = textBox1.Text;
+            string password = textBox2.Text;
 
+            // check credentials
+            if (username == "user" && password == "pass")
+            {
+                TeacherInterface tf = new TeacherInterface();
+                tf.Show();
+            }
+            else
+            {
+                MessageBox.Show("Error: credentials not valid");
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
 
         }

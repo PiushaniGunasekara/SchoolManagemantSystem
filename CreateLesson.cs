@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace StudentAttendence
 {
-    public partial class Lesson : Form
+    public partial class CreateLesson : Form
     {
-        public Lesson()
+        public CreateLesson()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Login l = new Login();
+            l.Show();
         }
     }
 }
