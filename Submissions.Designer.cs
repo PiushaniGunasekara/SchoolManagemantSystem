@@ -1,6 +1,6 @@
 ﻿namespace StudentAttendence
 {
-    partial class AdminInterface
+    partial class Submissions
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // AdminInterface
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(973, 765);
-            this.Name = "AdminInterface";
-            this.Text = "Form2";
-            this.ResumeLayout(false);
-
+            this.Text = "Submissions";
         }
 
         #endregion

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentAttendence
 {
-    public partial class AdminInterface : Form
+    public partial class Submissions : Form
     {
-        public AdminInterface()
+        public Submissions()
         {
             InitializeComponent();
         }
