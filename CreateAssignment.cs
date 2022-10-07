@@ -24,11 +24,16 @@ namespace StudentAttendence
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                // shows the path to the selected folder in the folder dialog
+                MessageBox.Show(fbd.SelectedPath);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
+            textBox2.Clear();
 
         }
 
@@ -36,6 +41,16 @@ namespace StudentAttendence
         {
             Login l = new Login();
             l.Show();
+            this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Module m = new Module();
+            m.Show();
+            this.Hide();
+        }
+
+      
     }
 }

@@ -69,19 +69,17 @@ namespace StudentAttendence
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
             Module m = new Module();
             m.Show();
+            this.Hide();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             Login l = new Login();
             l.Show();
+            this.Hide();
+
         }
     }
 }

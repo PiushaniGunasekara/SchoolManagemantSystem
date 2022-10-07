@@ -46,24 +46,36 @@ namespace StudentAttendence
         {
             CreateLesson cl = new CreateLesson();
             cl.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             CreateAssignment ca = new CreateAssignment();
             ca.Show();
+            this.Hide();
         }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Submissions s = new Submissions();
-            s.Show();
-        }
-
+        
         private void button6_Click(object sender, EventArgs e)
         {
             Login l = new Login();
             l.Show();
+            this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Submissions s = new Submissions();
+            s.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            TeacherInterface tf = new TeacherInterface();
+            tf.Show();
+            this.Hide();
+
         }
     }
 }

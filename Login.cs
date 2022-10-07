@@ -44,6 +44,7 @@ namespace StudentAttendence
             {
                 TeacherInterface tf = new TeacherInterface();
                 tf.Show();
+                this.Hide();
             }
             else
             {

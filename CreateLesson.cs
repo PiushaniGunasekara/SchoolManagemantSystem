@@ -27,5 +27,12 @@ namespace StudentAttendence
             Login l = new Login();
             l.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Module m = new Module();
+            m.Show();
+            this.Hide();
+        }
     }
 }
