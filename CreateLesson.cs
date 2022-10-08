@@ -19,6 +19,8 @@ namespace StudentAttendence
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Clear();
+            textBox2.Clear();
 
         }
 
@@ -33,6 +35,14 @@ namespace StudentAttendence
             Module m = new Module();
             m.Show();
             this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                // shows the path to the selected file 
+                textBox2.Text = ofd.FileName;
         }
     }
 }
