@@ -24,10 +24,11 @@ namespace StudentAttendence
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog fbd = new FolderBrowserDialog();
-            if (fbd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 // shows the path to the selected folder in the folder dialog
-                MessageBox.Show(fbd.SelectedPath);
+                //MessageBox.Show(ofd.FileName);
+            textBox2.Text = ofd.FileName;
         }
 
         private void button1_Click(object sender, EventArgs e)
