@@ -26,8 +26,7 @@ namespace StudentAttendence
         {
             OpenFileDialog ofd = new OpenFileDialog();
             if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                // shows the path to the selected folder in the folder dialog
-                //MessageBox.Show(ofd.FileName);
+            // shows the path to the selected file 
             textBox2.Text = ofd.FileName;
         }
 

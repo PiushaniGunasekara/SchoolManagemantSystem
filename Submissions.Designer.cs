@@ -33,11 +33,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Document = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Download = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.Marks = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,32 +89,14 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
             this.Document,
-            this.Download});
+            this.Download,
+            this.Marks});
             this.dataGridView1.Location = new System.Drawing.Point(398, 178);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(420, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(443, 93);
             this.dataGridView1.TabIndex = 37;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Id
-            // 
-            this.Id.HeaderText = "ID";
-            this.Id.Name = "Id";
-            // 
-            // Document
-            // 
-            this.Document.HeaderText = "Document";
-            this.Document.Name = "Document";
-            // 
-            // Download
-            // 
-            this.Download.HeaderText = "Download";
-            this.Download.Name = "Download";
-            this.Download.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Download.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Download.Text = "Download";
-            this.Download.UseColumnTextForButtonValue = true;
             // 
             // button4
             // 
@@ -134,6 +117,32 @@
             this.button7.Text = "Log Out";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // Id
+            // 
+            this.Id.HeaderText = "ID";
+            this.Id.Name = "Id";
+            // 
+            // Document
+            // 
+            this.Document.HeaderText = "Document";
+            this.Document.Name = "Document";
+            // 
+            // Download
+            // 
+            this.Download.HeaderText = "Download";
+            this.Download.Name = "Download";
+            this.Download.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Download.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.Download.Text = "Download";
+            this.Download.UseColumnTextForButtonValue = true;
+            // 
+            // Marks
+            // 
+            this.Marks.HeaderText = "Add Marks";
+            this.Marks.Name = "Marks";
+            this.Marks.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Marks.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // Submissions
             // 
@@ -168,5 +177,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Document;
         private System.Windows.Forms.DataGridViewButtonColumn Download;
+        private System.Windows.Forms.DataGridViewButtonColumn Marks;
     }
 }

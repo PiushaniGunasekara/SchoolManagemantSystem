@@ -34,10 +34,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridViewModules = new System.Windows.Forms.DataGridView();
-            this.button6 = new System.Windows.Forms.Button();
             this.Module_Code = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Module_Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.View = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewModules)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,19 +103,9 @@
             this.dataGridViewModules.Location = new System.Drawing.Point(413, 195);
             this.dataGridViewModules.Name = "dataGridViewModules";
             this.dataGridViewModules.RowTemplate.Height = 24;
-            this.dataGridViewModules.Size = new System.Drawing.Size(467, 111);
+            this.dataGridViewModules.Size = new System.Drawing.Size(384, 71);
             this.dataGridViewModules.TabIndex = 26;
             this.dataGridViewModules.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(1078, 27);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(72, 29);
-            this.button6.TabIndex = 32;
-            this.button6.Text = "Log Out";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Module_Code
             // 
@@ -138,6 +128,16 @@
             this.View.Name = "View";
             this.View.Text = "View";
             this.View.UseColumnTextForButtonValue = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(1078, 27);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(72, 29);
+            this.button6.TabIndex = 32;
+            this.button6.Text = "Log Out";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // TeacherInterface
             // 

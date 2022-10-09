@@ -36,13 +36,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Type = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.View = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,6 +110,7 @@
             this.label7.TabIndex = 25;
             this.label7.Text = "STUDENT \r\nLEARNING \r\nMANAGEMENT \r\nSYSTEM";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label1
             // 
@@ -134,9 +135,33 @@
             this.dataGridView1.Location = new System.Drawing.Point(401, 285);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(521, 90);
+            this.dataGridView1.Size = new System.Drawing.Size(470, 90);
             this.dataGridView1.TabIndex = 27;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // date
+            // 
+            this.date.HeaderText = "Date";
+            this.date.Name = "date";
+            // 
+            // Type
+            // 
+            this.Type.HeaderText = "Type";
+            this.Type.Name = "Type";
+            // 
+            // Description
+            // 
+            this.Description.HeaderText = "Description";
+            this.Description.Name = "Description";
+            // 
+            // View
+            // 
+            this.View.HeaderText = "View";
+            this.View.Name = "View";
+            this.View.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.View.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.View.Text = "View";
+            this.View.UseColumnTextForButtonValue = true;
             // 
             // button2
             // 
@@ -169,30 +194,6 @@
             this.button6.Text = "Log Out";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // date
-            // 
-            this.date.HeaderText = "Date";
-            this.date.Name = "date";
-            // 
-            // Type
-            // 
-            this.Type.HeaderText = "Type";
-            this.Type.Name = "Type";
-            // 
-            // Description
-            // 
-            this.Description.HeaderText = "Description";
-            this.Description.Name = "Description";
-            // 
-            // View
-            // 
-            this.View.HeaderText = "View";
-            this.View.Name = "View";
-            this.View.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.View.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.View.Text = "View";
-            this.View.UseColumnTextForButtonValue = true;
             // 
             // Module
             // 
