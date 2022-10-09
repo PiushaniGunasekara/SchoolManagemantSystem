@@ -74,9 +74,9 @@
             this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(570, 255);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 33);
+            this.label1.Size = new System.Drawing.Size(97, 33);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Username:";
+            this.label1.Text = "Email:";
             // 
             // label2
             // 

@@ -36,11 +36,11 @@ namespace StudentAttendence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
+            string email = textBox1.Text;
             string password = textBox2.Text;
 
             // check credentials
-            if (username == "user" && password == "pass")
+            if (email == "user" && password == "pass")
             {
                 TeacherInterface tf = new TeacherInterface();
                 tf.Show();
