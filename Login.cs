@@ -39,17 +39,7 @@ namespace StudentAttendence
             string email = textBox1.Text;
             string password = textBox2.Text;
 
-            // check credentials
-            if (email == "user" && password == "pass")
-            {
-                TeacherInterface tf = new TeacherInterface();
-                tf.Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Error: credentials not valid");
-            }
+            
         }
 
         private void label2_Click(object sender, EventArgs e)
